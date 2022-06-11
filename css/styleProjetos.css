@@ -1,0 +1,32 @@
+body {
+    margin: 0 auto;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../imagens/IMG-20220611-WA0008.jpg);
+    background-size: cover;
+
+}
+header nav{
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+}
+header nav h3{
+    width: 150px;
+    
+}
+header nav h3 a{
+    text-decoration: none;
+    color: white;
+}
+header nav button{
+    width: 150px;
+    background-color: blue;
+    border-radius: 10px;
+}
+header nav button a{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,54 @@
+body {
+    margin: 0 auto;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../imagens/IMG-20220611-WA0008.jpg);
+    background-size: cover;
+
+}
+header nav{
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(83, 82, 82);
+    
+}
+header nav h3{
+    width: 150px;
+    
+}
+header nav h3 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+header nav button{
+    width: 150px;
+    background-color: blue;
+    border-radius: 10px;
+}
+header nav button a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/*Pagina Inicial*/
+
+main h1{
+    display: flex;
+    justify-content: flex-end;
+}
+main h1 p{
+    justify-content: flex-end;
+}
+main h1 img{
+    margin-top: 150px;
+    margin-right: 40px;
+    border-radius: 20px;
+    width: 300px;
+    overflow: hidden;
+}
+main h1 img:hover{
+    transform: scale(120%);
+}
